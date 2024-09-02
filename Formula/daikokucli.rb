@@ -1,4 +1,4 @@
-class Wasmo < Formula
+class Daikokucli < Formula
   desc "Daikoku CLI"
   homepage "https://github.com/MAIF/daikoku/tree/master/cli"
   license any_of: ["MIT", "0BSD"]
