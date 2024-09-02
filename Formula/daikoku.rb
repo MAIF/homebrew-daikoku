@@ -1,4 +1,4 @@
-class Daikokucli < Formula
+class Daikoku < Formula
   desc "Daikoku CLI"
   homepage "https://github.com/MAIF/daikoku/tree/master/cli"
   license any_of: ["MIT", "0BSD"]
@@ -9,7 +9,7 @@ class Daikokucli < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--manifest-path=cli/Cargo.toml", "--release", "--bin", "daikokucli"
-    bin.install "cli/target/release/daikokucli"
+    system "cargo", "build", "--manifest-path=cli/Cargo.toml", "--release", "--bin", "daikoku"
+    bin.install "cli/target/release/daikoku"
   end
 end
