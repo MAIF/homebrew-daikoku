@@ -9,7 +9,8 @@ class Daikoku < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--manifest-path=cli/Cargo.toml", "--release", "--bin", "daikoku"
-    bin.install "cli/target/release/daikoku"
+    # system "cargo", "build", "--manifest-path=cli/Cargo.toml", "--release", "--bin", "daikoku"
+    # bin.install "cli/target/release/daikoku"
+    system "cargo", "install", *std_cargo_args
   end
 end
