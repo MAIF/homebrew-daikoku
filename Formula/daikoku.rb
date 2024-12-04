@@ -11,6 +11,7 @@ class Daikoku < Formula
   def install
     # system "cargo", "build", "--manifest-path=cli/Cargo.toml", "--release", "--bin", "daikoku"
     # bin.install "cli/target/release/daikoku"
+    cd cli
     system "cargo", "install", *std_cargo_args
   end
 end
