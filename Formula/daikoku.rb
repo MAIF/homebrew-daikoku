@@ -2,9 +2,9 @@ class Daikoku < Formula
   desc "Daikoku CLI"
   homepage "https://github.com/MAIF/daikoku/tree/master/cli"
   license any_of: ["MIT", "0BSD"]
-  url "https://github.com/MAIF/daikoku/archive/refs/tags/cli-1.1.0.tar.gz"
-  sha256 "0e6925d7e5b055535fc616f2c0a5284b7208a73cfc63f95bd7edb0d593e82940"
-  version "1.1.0"
+  url "https://github.com/MAIF/daikoku/archive/refs/tags/cli-1.3.0.tar.gz"
+  sha256 "08d03866ee22ff8c9ecb94d4d3bbfcf236e8b56284d85920dfc687e13aa57569"
+  version "1.3.0"
 
   depends_on "rust" => :build
 
